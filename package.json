@@ -1,0 +1,29 @@
+{
+  "name": "nistula-technical-assessment",
+  "version": "1.0.0",
+  "description": "Hospitality webhook backend for Nistula Technical Assessment using Node.js and Express.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "hospitality",
+    "webhook",
+    "express",
+    "anthropic",
+    "backend"
+  ],
+  "author": "Nistula Technical Assessment",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.4"
+  }
+}
